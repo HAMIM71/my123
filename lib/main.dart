@@ -18,12 +18,7 @@ class HomePage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           NavigationBar(),
-          Container(
-            margin: EdgeInsets.only(left: 40),
-            height: height / 2.5,
-            
-              itemCount: 1,
-              scrollDirection: Axis.horizontal,
+          
             ),
           ),
           Text(
