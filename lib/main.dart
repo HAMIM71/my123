@@ -13,6 +13,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundcolor: primaryColor);
+    return Scaffold(backgroundColor: primaryColor);
   }
 }
