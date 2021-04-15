@@ -21,10 +21,7 @@ class HomePage extends StatelessWidget {
           Container(
             margin: EdgeInsets.only(left: 40),
             height: height / 2.5,
-            child: ListView.builder(
-              itemBuilder: (context, index) {
-                return AlbumArt();
-              },
+            
               itemCount: 1,
               scrollDirection: Axis.horizontal,
             ),
